@@ -1,125 +1,363 @@
-body {
-    background-color: #1a1a1a;
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #0E0D0F;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
 }
+
+
+nav {
+	background-color: black;
+	width: 100%;
+	padding: 0 60px;
+	margin-bottom: 100px;
+}
+
+.svg {
+	margin-right: 10px;
+	min-width: 40px
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+	font-size: 170%;
+	margin: 0 10px;
+	font-weight: 300;
+}
+
+.link:hover {
+	color: #FF8800;
+}
+
+.title {
+	font-size: max(2.3vw, 40px);
+	font-weight: 300;
+}
+
+.title>span {
+	color: #FF8800;
+}
+
+.btn-login {
+	background-color: #ff880000;
+	border: 2px solid #FF8800;
+	height: 50%;
+	border-radius: 50px;
+	margin: auto 0;
+	font-weight: 300;
+	padding: 5px 20px;
+	min-width: 85px;
+}
+
+.btn-login:hover {
+	background-color: #FF8800;
+	border: 2px solid #FF8800;
+
+}
+
+.navbar-toggler {
+	min-width: 85px
+}
+
+.n-drop {
+	color: #FF8800;
+	font-size: max(2.3vw, 40px);
+	margin: 0;
+}
+
+.n-timer {
+	font-size: max(2vw, 45px);
+}
+
+.n-button {
+	background-color: #ff880000;
+	border: 2px solid #FFFFFF;
+	height: 50%;
+	border-radius: 50px;
+	margin: auto 0;
+	font-weight: 300;
+	padding: 10px 20px;
+	min-width: 85px
+}
+
+.n-button:hover {
+	background-color: #FF8800;
+	border: 2px solid #FF8800;
+
+}
+
+
+@media (max-width: 767px) {
+	nav {
+		padding: 0;
+	}
+
+}
+
+.kh-title {
+	color: #FF8800;
+	text-align: right;
+	font-family: 'Poppins', sans-serif;
+	font-size: max(4vw, 52px);
+	font-weight: 600;
+}
+
+.kh-title-span {
+	margin-top: -20px;
+	display: block;
+	font-size: max(8.3vw, 52px);
+}
+
+
+
+
+.kh-desc {
+	float: right;
+	width: 83%;
+	text-align: right;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: max(0.9vw, 17px);
+
+}
+
+.p-container {
+	margin-top: 10px;
+	width: 80%;
+	min-width: 300px;
+	float: right;
+}
+
+.carousel {
+	padding-top: 25px;
+	width: 74%;
+}
+
+.carousel>img {
+	border: 3px solid #FF8800;
+	display: block;
+	width: 100%;
+}
+
+.carousel>a {
+	color: #ffffff;
+	text-decoration: none;
+	float: right;
+}
+
+.check-history:hover {
+	color: #FF8800;
+	cursor: pointer;
+}
+
+.joypad {
+	position: absolute;
+	left: 30px;
+	width: 14%;
+}
+
+.giveaways {
+	margin: 0;
+	padding: 0 0 0 7%;
+	width: 100%;
+}
+
+.panel {
+	padding: 40px;
+	background-color: #232323;
+	width: 100%;
+}
+
+.panel>p {
+	margin-left: 160px;
+	text-align: left;
+	font-size: 1.8em;
+}
+
+.panel>img {
+	border: 3px solid #FF8800;
+	width: 25%;
+	min-width: 250px;
+	margin: 20px;
+}
+
+.orange {
+	color: #FF8800
+}
+
+@media (max-width: 767px) {
+	.textmodify {
+		text-align: center;
+	}
+}
+
+@media (max-width: 967px) {
+	.panel>p {
+		margin-top: 80px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.giveaways {
+		width: 100%;
+		padding: 0 0 0 0;
+	}
+
+	.joypad {
+		display: relative;
+		left: 43%;
+		margin-top: -110px;
+		width: 9%;
+		min-width: 80px;
+	}
+}
+
+
+.form {
+	padding: 50px 0 25px 0;
+	margin: 0 auto;
+	width: 60%;
+	background-color: #232323;
+}
+
+.form>input {
+	margin: 30px auto;
+	padding: 15px;
+	background-color: black;
+	display: block;
+	border: none;
+	font-size: 13px;
+	color: #FFFFFF;
+	width: 70%;
+}
+
+.form>h3 {
+	margin: 20px 0 50px 0;
+}
+
+.form>h3>span {
+	color: #FF8800;
+}
+
+.pb-xl-5 {
+	padding-bottom: 400px;
+}
+
+.form>button {
+	background-color: #FF8800;
+	color: #FFFFFF;
+	border: 2px solid #FF8800;
+	border-radius: 0;
+	width: 25%;
+}
+
+.form>button:hover {
+	background-color: #be6600;
+	border: 2px solid #be6600;
+
+}
+
+@media (max-width: 767px) {
+	.contenedor {
+		padding: 0;
+	}
+
+	.form {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.carousel {
+		margin: 0 auto;
+	}
+
+	.kh-title {
+		color: #FF8800;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		font-size: max(4vw, 52px);
+		font-weight: 600;
+	}
+
+	.kh-title-span {
+		margin-top: -10px;
+		font-size: max(5vw, 62px);
+	}
+
+	.kh-desc {
+		float: none;
+		width: 100%;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: max(0.9vw, 17px);
+
+	}
+
+	.p-container {
+		margin: 0 auto;
+		width: 80%;
+		min-width: 300px;
+		float: none;
+	}
+}
+
 .owl-carousel .owl-stage-outer {
-    height: 478px!important; 
+	height: 478px !important;
 }
+
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .bg-dark {
-    background-color: #000 !important;
+	background-color: #000 !important;
 }
 
 .nicebg {
 	background: rgb(26 26 26 / 90%);
-    border-radius: 8px;
-    padding: 8px;
+	border-radius: 8px;
+	padding: 8px;
 }
+
 /* Navbar Brand Edit */
 .navbar-brand {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: 0;
 }
 
 /* Navbar Brand Edit */
 
 /* Navbar Center Edit */
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {
-        flex-basis: 100%;
-    }
+	.navbar-expand-lg .navbar-collapse {
+		flex-basis: 100%;
+	}
 }
 
 /* Navbar Center Edit */
 
 .social-link {
-    font-size: 30px;
-    color: #ffc800;
-    transition: .3s;
+	font-size: 30px;
+	color: #ffffff;
+	transition: .3s;
 }
 
 .social-link:hover {
-    color: #d2a503;
+	color: #FF8800;
 }
 
 #subtitle {
-    font-size: 16px;
-    color: #fff;
-}
-
-.button-yellow {
-    color: #1a1a1a;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 16px 8px;
-    border-radius: 8px;
-    box-shadow: 0 10px 14px 0 rgba(192, 186, 26, 0.45);
-    background-color: #ffc800;
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    cursor: pointer;
-    align-items: center;
-    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-}
-
-.button-yellow:focus {
-    outline: 0;
-}
-
-.set-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-}
-
-.button-yellow:before {
-    position: absolute;
-    content: "";
-    display: block;
-    z-index: -1000;
-    transition: all ease-in-out 0.5s;
-    background-repeat: no-repeat;
-}
-
-.button-yellow:active {
-    transform: scale(0.9);
-    background-color: #daaa00;
-    box-shadow: 0 10px 14px 0 rgba(192, 189, 26, 0.45);
-}
-
-.first-menu {
-    text-align: center;
-}
-
-#goingtobrazil>ul>li {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    /* margin-right: 16px; */
-}
-
-#goingtobrazil>ul li.active a {
-    background: #ffc800;
-    color: #1a1a1a;
-}
-
-#goingtobrazil ul li:hover a {
-    color: #ffffff;
-}
-
-#goingtobrazil ul li a {
-    font-size: 15px;
-    color: #b7b7b7;
-    display: block;
-    font-weight: 700;
-    -webkit-transition: all, 0.5s;
-    -o-transition: all, 0.5s;
-    transition: all, 0.5s;
-    padding: 20px;
+	font-size: 16px;
+	color: #fff;
 }
 
 
@@ -264,7 +502,7 @@ a:hover {
 	font-size: 36px;
 	height: 66px;
 	width: 66px;
-	background: #1a1a1a!important;
+	background: #1a1a1a !important;
 	line-height: 66px;
 	text-align: center;
 	color: #ffffff;
@@ -327,83 +565,86 @@ a:hover {
  */
 
 .fade {
-    transition: opacity 0.15s linear !important;
+	transition: opacity 0.15s linear !important;
 }
 
 .collapsing {
-    transition: height 0.35s ease !important;
+	transition: height 0.35s ease !important;
 }
 
 .custom-switch .custom-control-label::after {
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out !important;
-    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
-    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out !important;
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out !important;
+	transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out !important;
 }
 
 .custom-range::-webkit-slider-thumb {
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 .custom-range::-moz-range-thumb {
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 .custom-range::-ms-thumb {
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
-.custom-control-label::before, .custom-file-label, .custom-select {
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+.custom-control-label::before,
+.custom-file-label,
+.custom-select {
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 .badge {
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 .progress-bar {
-    transition: width 0.6s ease !important;
+	transition: width 0.6s ease !important;
 }
 
 .progress-bar-animated {
-    -webkit-animation: progress-bar-stripes 1s linear infinite !important;
-    animation: progress-bar-stripes 1s linear infinite !important;
+	-webkit-animation: progress-bar-stripes 1s linear infinite !important;
+	animation: progress-bar-stripes 1s linear infinite !important;
 }
 
 .modal.fade .modal-dialog {
-    transition: -webkit-transform 0.3s ease-out !important;
-    transition: transform 0.3s ease-out !important;
-    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out !important;
+	transition: -webkit-transform 0.3s ease-out !important;
+	transition: transform 0.3s ease-out !important;
+	transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out !important;
 }
 
 .carousel-item {
-    transition: -webkit-transform 0.6s ease-in-out !important;
-    transition: transform 0.6s ease-in-out !important;
-    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out !important;
+	transition: -webkit-transform 0.6s ease-in-out !important;
+	transition: transform 0.6s ease-in-out !important;
+	transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out !important;
 }
 
 .carousel-fade .carousel-item {
-    transition-property: opacity !important;
+	transition-property: opacity !important;
 }
 
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
-    transition: 0s 0.6s opacity !important;
+	transition: 0s 0.6s opacity !important;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    transition: opacity 0.15s ease !important;
+.carousel-control-prev,
+.carousel-control-next {
+	transition: opacity 0.15s ease !important;
 }
 
 .carousel-indicators li {
-    transition: opacity 0.6s ease !important;
+	transition: opacity 0.6s ease !important;
 }
 
 .form-control {
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 .btn {
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
@@ -426,13 +667,16 @@ a:hover {
 	.hero {
 		overflow: hidden;
 	}
+
 	.login__form {
 		position: relative;
 		padding-left: 32px;
 	}
+
 	.login__social__links ul li a {
 		width: 380px;
 	}
+
 	.blog__item__text {
 		padding: 0 50px;
 	}
@@ -444,26 +688,32 @@ a:hover {
 	.hero {
 		overflow: hidden;
 	}
+
 	.header {
 		position: relative;
 	}
+
 	.header .container {
 		position: relative;
 	}
+
 	.header__right {
 		position: absolute;
 		right: 120px;
 		top: -42px;
 		padding: 0;
 	}
+
 	.header__menu {
 		display: none;
 	}
+
 	.slicknav_menu {
 		background: transparent;
 		padding: 0;
 		display: block;
 	}
+
 	.slicknav_nav {
 		position: absolute;
 		left: 0;
@@ -473,9 +723,11 @@ a:hover {
 		padding: 15px 30px;
 		z-index: 9;
 	}
+
 	.slicknav_nav ul {
 		margin: 0;
 	}
+
 	.slicknav_nav .slicknav_row,
 	.slicknav_nav a {
 		padding: 7px 0;
@@ -483,6 +735,7 @@ a:hover {
 		color: #111111;
 		font-weight: 600;
 	}
+
 	.slicknav_btn {
 		border-radius: 0;
 		background-color: #222;
@@ -490,54 +743,69 @@ a:hover {
 		right: 0;
 		top: 9px;
 	}
+
 	.slicknav_nav .slicknav_arrow {
 		color: #111111;
 	}
+
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
 		color: #111111;
 	}
+
 	.slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
 		color: #111111;
 	}
+
 	.product__sidebar {
 		padding-top: 50px;
 	}
+
 	.footer__logo {
 		text-align: center;
 		margin-bottom: 20px;
 	}
+
 	.footer__nav {
 		margin-bottom: 15px;
 	}
+
 	.footer__copyright__text {
 		text-align: center;
 	}
+
 	.anime__details__widget ul li span {
 		width: 90px;
 	}
+
 	.anime__details__pic {
 		margin-bottom: 40px;
 	}
+
 	.anime__details__sidebar {
 		padding-top: 50px;
 	}
+
 	.login__form {
 		padding-left: 0;
 		margin-bottom: 40px;
 	}
+
 	.login__form:after {
 		display: none;
 	}
+
 	.login__form form .input__item {
 		width: auto;
 	}
+
 	.login__register {
 		padding-left: 0;
 	}
+
 	.signup .login__social__links {
 		padding-left: 0;
 	}
@@ -549,26 +817,32 @@ a:hover {
 	.hero {
 		overflow: hidden;
 	}
+
 	.header {
 		position: relative;
 	}
+
 	.header .container {
 		position: relative;
 	}
+
 	.header__right {
 		position: absolute;
 		right: 120px;
 		top: -42px;
 		padding: 0;
 	}
+
 	.header__menu {
 		display: none;
 	}
+
 	.slicknav_menu {
 		background: transparent;
 		padding: 0;
 		display: block;
 	}
+
 	.slicknav_nav {
 		position: absolute;
 		left: 0;
@@ -578,9 +852,11 @@ a:hover {
 		padding: 15px 30px;
 		z-index: 9;
 	}
+
 	.slicknav_nav ul {
 		margin: 0;
 	}
+
 	.slicknav_nav .slicknav_row,
 	.slicknav_nav a {
 		padding: 7px 0;
@@ -588,6 +864,7 @@ a:hover {
 		color: #111111;
 		font-weight: 600;
 	}
+
 	.slicknav_btn {
 		border-radius: 0;
 		background-color: #222;
@@ -595,90 +872,115 @@ a:hover {
 		right: 0;
 		top: 9px;
 	}
+
 	.slicknav_nav .slicknav_arrow {
 		color: #111111;
 	}
+
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
 		color: #111111;
 	}
+
 	.slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
 		color: #111111;
 	}
+
 	.product__sidebar {
 		padding-top: 50px;
 	}
+
 	.footer__logo {
 		text-align: center;
 		margin-bottom: 20px;
 	}
+
 	.footer__nav {
 		margin-bottom: 15px;
 	}
+
 	.footer__copyright__text {
 		text-align: center;
 	}
+
 	.blog__details__title h2 {
 		font-size: 34px;
 		line-height: normal;
 	}
+
 	.anime__details__pic {
 		margin-bottom: 40px;
 	}
+
 	.anime__details__sidebar {
 		padding-top: 50px;
 	}
+
 	.btn__all {
 		text-align: left;
 	}
+
 	.product__page__title .section-title {
 		margin-bottom: 30px;
 	}
+
 	.product__page__title .product__page__filter {
 		text-align: left;
 	}
+
 	.anime__details__rating {
 		text-align: left;
 		position: relative;
 		margin-bottom: 20px;
 	}
+
 	.blog__details__social {
 		overflow: hidden;
 	}
+
 	.blog__details__title .blog__details__social a {
 		margin-right: 10px;
 		margin-bottom: 10px;
 		width: calc(50% - 10px);
 		float: left;
 	}
+
 	.login__form {
 		padding-left: 0;
 		margin-bottom: 40px;
 	}
+
 	.login__form:after {
 		display: none;
 	}
+
 	.login__form form .input__item {
 		width: auto;
 	}
+
 	.signup .login__social__links {
 		padding-left: 0;
 	}
+
 	.login__social__links ul li a {
 		width: auto;
 	}
+
 	.blog__item__text {
 		padding: 0 30px;
 	}
+
 	.login__register {
 		padding-left: 0;
 	}
+
 	.product__sidebar__view .filter__controls li {
 		margin-right: 2px;
 	}
+
 	.search-model-form input {
 		width: 100%;
 	}
@@ -690,63 +992,81 @@ a:hover {
 	.hero__slider.owl-carousel .owl-nav {
 		display: none;
 	}
+
 	.hero__items {
 		padding: 250px 0 42px 15px;
 	}
+
 	.hero__text h2 {
 		font-size: 32px;
 	}
+
 	.footer__nav ul li {
 		margin-right: 10px;
 	}
+
 	.anime__details__btn .follow-btn {
 		padding: 14px 26px;
 		margin-right: 11px;
 		margin-bottom: 25px;
 	}
+
 	.anime__details__widget ul li span {
 		width: 85px;
 	}
+
 	.anime__video__player .plyr__volume {
 		left: 65px;
 	}
+
 	.anime__video__player .plyr__controls .plyr__controls__item.plyr__time {
 		left: 95px;
 	}
+
 	.anime__video__player .plyr__menu {
 		margin-right: 60px;
 	}
+
 	.blog__details__title h2 {
 		font-size: 30px;
 		line-height: normal;
 	}
+
 	.blog__details__title .blog__details__social a {
 		padding: 16px 25px 14px 20px;
 	}
+
 	.blog__details__comment__item.blog__details__comment__item--reply {
 		padding-left: 0;
 	}
+
 	.blog__details__comment__item__pic {
 		margin-right: 25px;
 	}
+
 	.blog__details__comment__item__text a {
 		margin-right: 6px;
 	}
+
 	.login__social__links ul li a i {
 		left: 20px;
 	}
+
 	.login__form .forget_pass {
 		position: relative;
 		left: 0;
 		bottom: 0;
 		margin-top: 25px;
 	}
+
 	.header__right a {
 		margin-right: 10px;
 	}
+
 	.anime__review__item__text h6 span {
 		font-size: 12px;
 	}
+
 	.anime__review__item__text {
 		padding: 18px 20px 20px;
 	}
@@ -754,18 +1074,17 @@ a:hover {
 
 footer {
 	background-color: #000;
-	color:#fff;
-	margin-top:50px;
-	
+	color: #fff;
+	margin-top: 50px;
+
 }
 
 footer a {
-	color: #ffc800;
+	color: #ffffff;
 	text-decoration: none;
 	transition: 0.5s;
 }
 
 footer a:hover {
-	color: #000;
-	background-color: #ffc800;
+	color: #FF8800;
 }
